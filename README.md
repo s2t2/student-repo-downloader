@@ -19,8 +19,8 @@ Requires Ruby and Bundler.
 Download the source code:
 
 ```sh
-git clone ____________
-cd student-project-repo-downloader/
+git clone git@github.com:prof-rossetti/student-repo-downloader.git
+cd student-repo-downloader/
 ```
 
 Install package dependencies:
@@ -44,3 +44,5 @@ ruby app/download_submissions.rb
 ```
 
 > NOTE: The script will clear and re-populate all contents of the "downloads" directory, so make sure you don't need anything in there before re-running the script subsequent times.
+
+# [License](/LICENSE.md)
