@@ -40,7 +40,7 @@ This script uses the [`octokit` gem](https://github.com/octokit/octokit.rb) to i
 Download all student submissions:
 
 ```sh
-ruby app/download_submissions.rb
+ruby app/download_submissions.rb --url=https://raw.githubusercontent.com/path/to/raw.submissions.csv
 ```
 
 > NOTE: The script will clear and re-populate all contents of the "downloads" directory, so make sure you don't need anything in there before re-running the script subsequent times.
